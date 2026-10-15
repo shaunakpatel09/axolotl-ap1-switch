@@ -1,0 +1,167 @@
+{
+ "samples_per_timepoint": {
+  "1dpi": [
+   "1dpi_sample1",
+   "1dpi_sample2",
+   "1dpi_sample3"
+  ],
+  "3dpi": [
+   "3dpi_sample1",
+   "3dpi_sample2"
+  ],
+  "7dpi": [
+   "7dpi_sample1",
+   "7dpi_sample2"
+  ],
+  "Uninjured": [
+   "uninj_sample1",
+   "uninj_sample2",
+   "uninj_sample3"
+  ]
+ },
+ "cells_per_sample": {
+  "1dpi_sample1": 7359,
+  "1dpi_sample2": 5192,
+  "1dpi_sample3": 8459,
+  "3dpi_sample1": 9260,
+  "3dpi_sample2": 8231,
+  "7dpi_sample1": 7466,
+  "7dpi_sample2": 7723,
+  "uninj_sample1": 2757,
+  "uninj_sample2": 1024,
+  "uninj_sample3": 8707
+ },
+ "protocol_by_sample": {
+  "1dpi_sample1": [
+   [
+    "Standard",
+    "v2"
+   ]
+  ],
+  "1dpi_sample2": [
+   [
+    "Enriched",
+    "v2"
+   ]
+  ],
+  "1dpi_sample3": [
+   [
+    "Enriched",
+    "v3"
+   ]
+  ],
+  "3dpi_sample1": [
+   [
+    "Standard",
+    "v2"
+   ]
+  ],
+  "3dpi_sample2": [
+   [
+    "Enriched",
+    "v2"
+   ]
+  ],
+  "7dpi_sample1": [
+   [
+    "Standard",
+    "v2"
+   ]
+  ],
+  "7dpi_sample2": [
+   [
+    "Enriched",
+    "v2"
+   ]
+  ],
+  "uninj_sample1": [
+   [
+    "Standard",
+    "v2"
+   ]
+  ],
+  "uninj_sample2": [
+   [
+    "Standard",
+    "v2"
+   ]
+  ],
+  "uninj_sample3": [
+   [
+    "Enriched",
+    "v3"
+   ]
+  ]
+ },
+ "protocols_within_timepoint": {
+  "1dpi": [
+   "Enriched",
+   "Standard"
+  ],
+  "3dpi": [
+   "Enriched",
+   "Standard"
+  ],
+  "7dpi": [
+   "Enriched",
+   "Standard"
+  ],
+  "Uninjured": [
+   "Enriched",
+   "Standard"
+  ]
+ },
+ "samples_spanning_both_protocols": [],
+ "composition_by_sample": {
+  "1dpi_sample1": {
+   "Astrocyte": 6,
+   "Ependymal": 882,
+   "_total": 7359
+  },
+  "1dpi_sample2": {
+   "Astrocyte": 174,
+   "Ependymal": 896,
+   "_total": 5192
+  },
+  "1dpi_sample3": {
+   "Astrocyte": 312,
+   "Ependymal": 1091,
+   "_total": 8459
+  },
+  "3dpi_sample1": {
+   "Astrocyte": 3,
+   "Ependymal": 570,
+   "_total": 9260
+  },
+  "3dpi_sample2": {
+   "Astrocyte": 194,
+   "Ependymal": 650,
+   "_total": 8231
+  },
+  "7dpi_sample1": {
+   "Astrocyte": 10,
+   "Ependymal": 383,
+   "_total": 7466
+  },
+  "7dpi_sample2": {
+   "Astrocyte": 108,
+   "Ependymal": 567,
+   "_total": 7723
+  },
+  "uninj_sample1": {
+   "Astrocyte": 8,
+   "Ependymal": 568,
+   "_total": 2757
+  },
+  "uninj_sample2": {
+   "Astrocyte": 3,
+   "Ependymal": 62,
+   "_total": 1024
+  },
+  "uninj_sample3": {
+   "Astrocyte": 112,
+   "Ependymal": 2048,
+   "_total": 8707
+  }
+ }
+}

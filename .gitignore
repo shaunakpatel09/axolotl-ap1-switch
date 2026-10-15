@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.log
+
+# Large third-party data, not redistributed
+*.mtx
+*.mtx.gz
+GSE162610_matrix*

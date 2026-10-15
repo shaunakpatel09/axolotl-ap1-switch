@@ -1,0 +1,27 @@
+Property tests for the AP-1 glial switch model
+master seed 20261015
+
+  [PASS] T1 dimer stoichiometry
+         500 random states, seed 20261015
+         max |d(cFos_total)/dt| / scale = 1.482e-16
+         max |d(cJun_total)/dt| / scale = 2.019e-16
+         max |d(JunB_total)/dt| / scale = 2.336e-16
+         tolerance 1e-12
+         negative control (factor 1 instead of 2): |drift| = 2.879e+04  (must be non-zero)
+  [PASS] T2 equilibrium stability
+         high  cJun_total=  72.040  residual=1.542e-12 (<5.2e-05)  max Re(lambda)=-0.2000
+         low   cJun_total=  19.992  residual=8.837e-14 (<4.2e-05)  max Re(lambda)=-0.2000
+         saddle cJun_total=  38.188  max Re(lambda)=+0.4926 (unstable, as required)
+  [PASS] T3 readout independence
+         40 random readout parameterisations, seed 20261016
+         parameters varied: a_G, b_G_by_FJ, Km, n, Km_rep, n_rep, g_G, a_G_indep
+         max relative change in the 8 upstream species = 1.878e-13
+         tolerance 1e-08
+  [PASS] T4 intervention equivalence
+         engagement 0.00 to 0.80 in 41 steps
+         max |cJun_total(JNK) - cJun_total(T-5224+JJ)| = 3.55e-14
+         max |difference| over all 8 upstream species = 1.42e-14
+         tolerance 1e-09
+         GFAP differs somewhere (it must, Km_rep differs): True
+
+4 of 4 properties hold

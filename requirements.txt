@@ -1,0 +1,13 @@
+# Versions used to produce the published figures (Python 3.13.16).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+openpyxl==3.1.5
+
+# Required only by src/sc_validation.py (negative binomial regression against
+# the Lust et al. 2022 single-nucleus atlas). Version not pinned: it was not
+# installed in the environment used for the final figure pass, so the exact
+# version used for the single-nucleus comparison should be confirmed before
+# relying on this pin.
+statsmodels
