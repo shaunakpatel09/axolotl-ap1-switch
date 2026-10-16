@@ -169,10 +169,7 @@ map, engagement scans and GSE162610 extraction are deterministic.
 
 This work has not been peer reviewed. The author welcomes correction.
 
-Claude (Anthropic) was used throughout for code implementation, analysis and
-drafting. All scientific claims, parameter choices and interpretations are the
-author's, as are any errors. Source files carry the attribution "Built with AI
-assistance (Claude); reviewed and owned by the author."
+Claude (Anthropic) was used for coding.
 
 Yonatan Degefu (Fallahi-Sichani Laboratory, University of Virginia) reviewed the
 model and advised on the sequence of analyses presented in Figures 2–6.
